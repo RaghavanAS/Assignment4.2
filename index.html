@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Assignment on Div and SASS and External CSS</title>
+        <!-- HTML5 shim for IE8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+      <script src=“https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js”></script>
+    <![endif]-->
+<style type="text/css">
+/* Adding background linear gradient to body */
+body{
+	background: -webkit-linear-gradient(white, yellow);
+    background: -o-linear-gradient(white, yellow);
+    background: -moz-linear-gradient(white, yellow);
+    background: linear-gradient(white, yellow);	
+}
+/* linking the external style sheet to the document */
+div{
+	position: absolute;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+<!-- Heading -->
+<header>
+<center><h1 style="color: black">A Sample Webpage</h1></center>
+</header>
+<!-- main section -->
+<main id="mainSection">
+<section id="firstSection">
+<!-- div element with an image-->
+<div id="firstDiv" class="divOne">First</div>
+<div id="secondDiv" class="divTwo">Second</div>
+<div id="thirdDiv" class="divThree">Third</div>
+</section>
+</main>	
+<!-- main section ends -->
+</body>
+<!-- end of body -->
+</html>
+<!-- end of html -->

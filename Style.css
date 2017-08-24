@@ -1,0 +1,27 @@
+.divOne, .divTwo, .divThree {
+  background-color: #f6f6f6;
+  border-style: inset;
+  left: 5%;
+}
+
+.divTwo {
+  background-color: #f6f6f6;
+  left: 35%;
+  border-style: dotted dashed solid double;
+}
+
+.divThree {
+  background-color: #f6f6f6;
+  left: 65%;
+  border-style: outset;
+}
+
+.divOne, .divTwo, .divThree {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+  top: 10%;
+}

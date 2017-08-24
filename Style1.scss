@@ -1,0 +1,19 @@
+$primary-color: #f6f6f6;
+$primary-style: inset;
+$primary-style1: outset;
+.divOne{
+	background-color: $primary-color;
+	border-style:$primary-style;
+	left:5%;
+	
+}
+.divTwo{
+	background-color: $primary-color;
+	left:35%;
+	border-style: dotted dashed solid double;
+}
+.divThree{
+	background-color: $primary-color;
+	left:65%;
+	border-style:$primary-style1;
+}
